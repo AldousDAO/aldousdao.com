@@ -4119,7 +4119,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 30px;
+    margin-top: 32px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -11445,12 +11445,6 @@ figcaption {
 .text-customers__home {
     display: block;
     margin-bottom: 16px;
-    color: #fff;
-    font-weight: 400;
-}
-
-.text-comingsoon__home {
-    display: block;
     color: #fff;
     font-weight: 400;
 }
