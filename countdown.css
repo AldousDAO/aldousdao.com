@@ -1,0 +1,35 @@
+.counter {
+    display: flex;
+    margin-top: 40px;
+}
+.counter .counter-item {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--blue);
+}
+.counter .counter-item span.label {
+    font-size: 10px;
+    color: var(--blue-dark);
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4px;
+    background: var(--white);
+}
+.counter .counter-item span.value {
+    width: 100%;
+    padding: 8px;
+    font-size: 36px;
+    color: var(--white);
+    text-align: center;
+}
+@media (max-width: 500px) {
+    .counter .counter-item span.value {
+        font-size: 50px;
+   }
+}
