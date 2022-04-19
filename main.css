@@ -18406,3 +18406,17 @@ figcaption {
     margin:0 auto;
     text-align: center;
 }
+
+.show-faq-answer{
+    width: 900px;
+}
+
+.hide-faq-answer{
+    width: 900px;
+    height: 0px;
+}
+
+.cross-faq-icon{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg);
+    transform-style: preserve-3d;
+}
